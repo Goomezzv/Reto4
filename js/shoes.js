@@ -1,0 +1,26 @@
+$(document).ready(function() {
+    $("#products").click(function(){
+        $("#medio").load("products.html");
+    });
+    $("#about").click(function(){
+        $("#medio").load("about.html");
+    });
+    $("#sales").click(function(){
+        $("#medio").load("sales.html");
+    });
+    $("#404").click(function(){
+        $("#medio").load("404.html");
+    });
+    $("#success").click(function(){
+        $("#medio").load("success.html");
+    });
+    $("#terms").click(function(){
+        $("#medio").load("terms.html");
+    });
+    $("#success1").click(function(){
+        $("#medio").load("success.html");
+    });
+    $("#success2").click(function(){
+        $("#medio").load("success.html");
+    });
+});
